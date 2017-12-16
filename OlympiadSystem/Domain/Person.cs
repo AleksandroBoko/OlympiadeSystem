@@ -15,13 +15,13 @@ namespace OlympiadSystem.Domain
         [DataMember]
         public Guid Id { get; private set; }
         [DataMember]
-        public string FirstName;
+        public string FirstName { get; set; }
         [DataMember]
-        public string LastName;
+        public string LastName { get; set; }
         [DataMember]
-        public int Age;
+        public int Age { get; set; }
         [DataMember]
-        public string University;
+        public string University { get; set; }
 
         public Person()
         {

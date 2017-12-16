@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace OlympiadSystem
 {
-    public partial class Form2 : Form
+    public partial class formOlympiadInfo : Form
     {
-        public Form2()
+        public formOlympiadInfo()
         {
             InitializeComponent();
         }

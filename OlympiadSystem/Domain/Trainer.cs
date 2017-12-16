@@ -8,5 +8,6 @@ namespace OlympiadSystem.Domain
 {
     class Trainer:Person
     {
+        public string Specialization { get; set; }
     }
 }

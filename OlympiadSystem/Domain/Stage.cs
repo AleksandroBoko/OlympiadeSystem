@@ -8,9 +8,12 @@ namespace OlympiadSystem.Domain
 {
     class Stage
     {
-        Guid Id;
-        Guid OlympiadId;
-        string NameStage;
-        bool IsFinal;
+        public Guid Id { get; set; }
+        public Guid OlympiadId { get; set; }
+        public string NameStage { get; set; }
+        public string Country { get; set; }
+        public string City { get; set; }
+        public string Place { get; set; }
+        public bool IsFinal { get; set; }
     }
 }

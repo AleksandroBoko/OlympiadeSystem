@@ -9,9 +9,7 @@ namespace OlympiadSystem.Domain
     abstract class Competition
     {
         public Guid Id;
-        public string Name;
-        public string City;
-        public string Place;
+        public string Name;        
         public string Subject;
         public bool IsActive;
 

@@ -25,7 +25,7 @@ namespace OlympiadSystem
         private void button1_Click(object sender, EventArgs e)
         {
             int age;
-            var result = int.TryParse(textBoxAge.Text,out age);
+            var result = Int32.TryParse(textBoxAge.Text,out age);
             if (!result)
             {
                 MessageBox.Show("Было введено некорректное значение для возраста!");

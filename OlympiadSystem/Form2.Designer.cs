@@ -1,6 +1,6 @@
 ﻿namespace OlympiadSystem
 {
-    partial class Form2
+    partial class formOlympiadInfo
     {
         /// <summary>
         /// Required designer variable.
@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this.labelName = new System.Windows.Forms.Label();
             this.textBoxName = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
+            this.labelCity = new System.Windows.Forms.Label();
             this.textBoxCity = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -42,14 +42,14 @@
             this.buttonSave = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // label1
+            // labelName
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(23, 29);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Name";
+            this.labelName.AutoSize = true;
+            this.labelName.Location = new System.Drawing.Point(23, 29);
+            this.labelName.Name = "labelName";
+            this.labelName.Size = new System.Drawing.Size(35, 13);
+            this.labelName.TabIndex = 0;
+            this.labelName.Text = "Name";
             // 
             // textBoxName
             // 
@@ -59,15 +59,15 @@
             this.textBoxName.TabIndex = 1;
             this.textBoxName.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // label2
+            // labelCity
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(23, 66);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(24, 13);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "City";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
+            this.labelCity.AutoSize = true;
+            this.labelCity.Location = new System.Drawing.Point(23, 66);
+            this.labelCity.Name = "labelCity";
+            this.labelCity.Size = new System.Drawing.Size(24, 13);
+            this.labelCity.TabIndex = 2;
+            this.labelCity.Text = "City";
+            this.labelCity.Click += new System.EventHandler(this.label2_Click);
             // 
             // textBoxCity
             // 
@@ -153,7 +153,7 @@
             this.buttonSave.UseVisualStyleBackColor = true;
             this.buttonSave.Click += new System.EventHandler(this.buttonSave_Click);
             // 
-            // Form2
+            // formOlympiadInfo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -167,11 +167,11 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.textBoxCity);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.labelCity);
             this.Controls.Add(this.textBoxName);
-            this.Controls.Add(this.label1);
-            this.Name = "Form2";
-            this.Text = "Form2";
+            this.Controls.Add(this.labelName);
+            this.Name = "formOlympiadInfo";
+            this.Text = "Данные соревнований";
             this.Load += new System.EventHandler(this.Form2_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -180,9 +180,9 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label labelName;
         private System.Windows.Forms.TextBox textBoxName;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label labelCity;
         private System.Windows.Forms.TextBox textBoxCity;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;

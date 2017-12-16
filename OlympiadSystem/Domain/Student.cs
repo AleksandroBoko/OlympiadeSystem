@@ -10,6 +10,6 @@ namespace OlympiadSystem.Domain
     [DataContract]
     class Student:Person
     {
-
+        public string ClassName;
     }
 }
