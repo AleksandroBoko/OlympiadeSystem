@@ -16,8 +16,7 @@ namespace OlympiadSystem.Logic
         public StudentManager()
         {
             StudentData = new StudentData();
-            Students = StudentData.ReadStudents();
-             
+            Students = StudentData.ReadStudents();             
         }
 
         public void AddStudent(Person person)

@@ -16,7 +16,7 @@ namespace OlympiadSystem
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new formPersonInfo());
+            Application.Run(new formTypeOlympiad());
         }
     }
 }
