@@ -6,14 +6,13 @@ using System.Threading.Tasks;
 
 namespace OlympiadSystem.Domain
 {
-    abstract class Competition
+    class StudentOlympiadStage
     {
         public Guid Id { get; private set; }
-        public string Name { get; set; }
-        public string Subject { get; set; }
-        public bool IsActive { get; set; }
+        public Guid StudentId { get; set; }
+        public Guid StageId { get; set; }
 
-        public Competition()
+        public StudentOlympiadStage()
         {
             Id = Guid.NewGuid();
         }

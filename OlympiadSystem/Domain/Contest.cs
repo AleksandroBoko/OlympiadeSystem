@@ -8,5 +8,7 @@ namespace OlympiadSystem.Domain
 {
     class Contest:Competition
     {
+        public DateTime Date { get; set; }
+        public int CountWinnerPlace { get; set; }
     }
 }

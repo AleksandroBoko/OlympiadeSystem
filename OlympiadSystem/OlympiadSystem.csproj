@@ -52,13 +52,16 @@
     <Compile Include="DataModel\StudentData.cs" />
     <Compile Include="Domain\Competition.cs" />
     <Compile Include="Domain\Contest.cs" />
+    <Compile Include="Domain\ContestResult.cs" />
     <Compile Include="Domain\Olympiad.cs" />
     <Compile Include="Domain\Person.cs" />
     <Compile Include="Domain\Stage.cs" />
-    <Compile Include="Domain\StageOlympiad.cs" />
     <Compile Include="Domain\Student.cs" />
-    <Compile Include="Domain\StudentStatistic.cs" />
+    <Compile Include="Domain\StudentContest.cs" />
+    <Compile Include="Domain\StudentOlympiadStage.cs" />
+    <Compile Include="Domain\StudentTrainer.cs" />
     <Compile Include="Domain\Trainer.cs" />
+    <Compile Include="Domain\TypeOlympiad.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

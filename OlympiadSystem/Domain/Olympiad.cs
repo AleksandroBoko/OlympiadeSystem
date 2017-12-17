@@ -8,6 +8,6 @@ namespace OlympiadSystem.Domain
 {
     class Olympiad:Competition
     {
-
+        public Guid TypeOlympiadId { get; set; }
     }
 }
